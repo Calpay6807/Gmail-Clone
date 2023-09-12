@@ -1,0 +1,15 @@
+.icon {
+  transition: all 0.6s;
+  border-radius: 50%;
+  cursor: pointer;
+  &:hover {
+    background-color: #d8dbdd;
+    transition: all 0.5s;
+  }
+}
+
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

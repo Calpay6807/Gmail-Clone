@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/gmail-clone/style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/toastify-js/src/toastify.min.css">
+
+</head>
+<body>
+
+<!-- header üst kısım -->
+    <header>
+        <div class="left">
+            <div class="menu">
+
+                <i class="bi bi-list"></i>
+            </div>
+
+
+                <img src="/gmail-clone/assets/image/logo-24.png" alt="">
+                <span>Gmail</span>
+            <div></div>
+        </div>
+        <div class="middle">
+            <form class="flex" action="">
+                <div class="icon">
+
+                    <i class="bi bi-search" id="search-icon"></i>
+                </div>
+                
+                <input id="search-input" type="search">
+            </form>
+
+        </div>
+        <div class="right">
+            <i class="bi bi-question-circle-fill"></i>
+            <i class="bi bi-gear"></i>
+            <i class="bi bi-menu-button-wide-fill"></i>
+            <img src="/gmail-clone/assets/image/man.jpg" alt="">
+
+        </div>
+    </header>
+    <!-- header bitiş -->
+
+    <section>
+        <!-- sol navigasyon -->
+        <nav >
+            <div class="create-mail">
+                <i class="bi bi-pencil-fill"></i>
+                <span >Oluştur</span>
+              </div>
+              <div class="middle">
+                
+               
+              </div>
+              <div class="bottom">
+                <div>
+                  <span>Kategoriler</span>
+                  <i class="bi bi-plus-lg"></i>
+                </div>
+              </div>
+        </nav>
+        <!-- ana içerik -->
+        
+        <main>
+            <div class="top">
+                <div class="left">
+                  <input type="checkbox">
+                  <i class="bi bi-arrow-clockwise"></i>
+                  <i class="bi bi-three-dots-vertical"></i>
+                </div>
+                <div class="right">
+                  <p>94 satirdan 1-50 arası</p>
+                  <i class="bi bi-arrow-left-short"></i>
+                  <i class="bi bi-arrow-right-short"></i>
+                </div>
+            </div>
+            <div class="mails-area">
+
+              <div class="mail">
+                <div class="left">
+                  <input type="checkbox">
+                  <i class="bi bi-star"></i>
+                  <span>trendyol</span>
+                </div>
+                <div class="right">
+                  <p class="message-title">İndirim Yağmuru</p>
+                  <p class="message-desc">Lorem ipsum dolor sit amet.</p>
+                  <p class="message-date">10 May</p>
+                  <button id="delete">sil</button>
+                </div>
+              </div>
+
+              
+            </div>
+        </main>
+        <!-- sağ yan içerik -->
+        <aside>
+          <img src="/gmail-clone/assets/image/calendar-48.png" class="icon" alt="">
+          <img src="/gmail-clone/assets/image/keep-48.png" class="icon" alt="">
+          <img src="/gmail-clone/assets/image/task-48.png" class="icon" alt="">
+          <img src="/gmail-clone/assets/image/account-48.png" class="icon" alt="">
+          <span>
+          </span>
+          <i class="bi bi-plus-lg icon"></i>
+        </aside>
+    </section>
+
+    <!-- modal  -->
+
+    <div class="modal-wrapper">
+      <div class="modal-inner">
+        <i id="close-id">X</i>
+        <form id="create-mail-form" action="">
+          <label for="">Kime</label>
+          <input type="text">
+          <label for="">Konu</label>
+          <input type="text">
+          <label for="">İçerik</label>
+          <textarea name="" id="" cols="30" rows="10"></textarea>
+          <button id="send-mail-btn">Gönder</button>
+        </form>
+      </div>
+    </div>
+
+    <!-- sdsd -->
+    <!-- sk -->
+    <!-- option yukarı aşağı satır taşıma cmd ö yorum cmd sağ sol cmd enter altaa geçer control cmd f ekran boyutu  cmd - ekranı uzaklaştır boyutu
+    cntrol cmd 0 ekranı yakınlaştır-
+-->
+<script src="gmail-clone/index.js" type="module"></script>
+<script src="https://cdn.jsdelivr.net/npm/sweetalert2@11/dist/sweetalert2.all.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/toastify-js"></script>
+</body>
+</hπtml>
